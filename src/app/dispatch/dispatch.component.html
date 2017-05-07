@@ -1,0 +1,17 @@
+<div class="row">
+        <div class="col-xs-12">
+      <p>Neighborhood Crime Watch!!</p>
+      <p>Add new suspect or description!!</p>
+      <label>Suspect Name</label>
+      <input type="text" class="form-control" [(ngModel)]="newSuspectName">
+      <label>Suspect Description</label>
+      <input type="text" class="form-control" [(ngModel)]="newSuspectDescription">
+      <br>
+      <button
+        class="btn btn-primary"
+        (click)="onAddSuspect()">Add Suspect</button>
+      <button
+        class="btn btn-primary"
+        (click)="onAddDescripton()">Describe Suspect</button>
+    </div>
+  </div>

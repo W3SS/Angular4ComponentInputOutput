@@ -1,3 +1,12 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <app-dispatch (suspectCreated)="onSuspectAdded($event)"
+  (descriptionCreated)="onDescriptionAdded($event)"></app-dispatch>
+  <hr>
+  <div class="row">
+    <div class="col-xs-12">
+<app-suspect
+  *ngFor="let suspect of suspects"
+  [n]="suspect"></app-suspect>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="panel panel-default">
+    <div class="panel-heading">{{ newSuspect.name }}
+    </div>
+    <div class="panel-body">
+        <p>
+            <strong *ngIf="newSuspect.type === 'suspect'">{{ newSuspect.description }}</strong>
+            <em *ngIf="newSuspect.type === 'description'">{{ newSuspect.description }}</em>
+        </p>
+        </div>
+    </div>
+
