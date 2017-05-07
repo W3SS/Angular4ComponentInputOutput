@@ -39,7 +39,7 @@ This is an assignment from the Angular 4 course I am taking on Udemy.  The appli
 4. edited all type script files and html manually.
 5. added bootstrap to make the world look identical to Twitter(you're welcome):
   npm install bootstrap --save
-  vi /src/angular-cli.json -> adding "../node_modules/bootstrap/dist/css/bootstrap.min.css" to Styles array
+  vi angular-cli.json -> adding "../node_modules/bootstrap/dist/css/bootstrap.min.css" to Styles array
   
   You can create components via Angular CLI: `ng g c somecomponent`, however, I decided to do it all manually as a test of my nerditude.
   
